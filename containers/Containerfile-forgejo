@@ -1,0 +1,6 @@
+ARG BASE_IMAGE="ghcr.io/gbraad-dotfiles/centos"
+ARG BASE_VERSION="stream9"
+
+FROM ${BASE_IMAGE}:${BASE_VERSION}
+
+USER root
